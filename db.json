@@ -1,0 +1,1031 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "company": "AlphaPay",
+      "sector": "Fintech",
+      "stage": "Series D",
+      "date": "Just now",
+      "geography": "South Africa",
+      "valuation": "$18M-$22M",
+      "logo": "https://via.placeholder.com/32x32/4F46E5/FFFFFF?text=AP"
+    },
+    {
+      "id": 2,
+      "company": "PaySphere",
+      "sector": "Fintech",
+      "stage": "Series A",
+      "date": "A minute ago",
+      "geography": "Accra, Ghana",
+      "valuation": "$18M-$22M",
+      "logo": "https://via.placeholder.com/32x32/059669/FFFFFF?text=PS"
+    },
+    {
+      "id": 3,
+      "company": "SwiftFunds",
+      "sector": "Fintech",
+      "stage": "Series B",
+      "date": "1 hour ago",
+      "geography": "South Africa",
+      "valuation": "$18M-$22M",
+      "logo": "https://via.placeholder.com/32x32/DC2626/FFFFFF?text=SF"
+    },
+    {
+      "id": 4,
+      "company": "TechFlow",
+      "sector": "Fintech",
+      "stage": "Series C",
+      "date": "Yesterday",
+      "geography": "Accra, Ghana",
+      "valuation": "$18M-$22M",
+      "logo": "https://via.placeholder.com/32x32/7C3AED/FFFFFF?text=TF"
+    },
+    {
+      "id": 5,
+      "company": "DataVault",
+      "sector": "Fintech",
+      "stage": "Series A",
+      "date": "Feb 2, 2024",
+      "geography": "South Africa",
+      "valuation": "$18M-$22M",
+      "logo": "https://via.placeholder.com/32x32/F59E0B/FFFFFF?text=DV"
+    },
+    {
+      "id": 6,
+      "company": "CloudSync",
+      "sector": "SaaS",
+      "stage": "Series B",
+      "date": "3 hours ago",
+      "geography": "Lagos, Nigeria",
+      "valuation": "$25M-$30M",
+      "logo": "https://via.placeholder.com/32x32/10B981/FFFFFF?text=CS"
+    },
+    {
+      "id": 7,
+      "company": "GreenTech",
+      "sector": "Clean Energy",
+      "stage": "Series C",
+      "date": "2 days ago",
+      "geography": "Nairobi, Kenya",
+      "valuation": "$35M-$40M",
+      "logo": "https://via.placeholder.com/32x32/059669/FFFFFF?text=GT"
+    },
+    {
+      "id": 8,
+      "company": "MediCare",
+      "sector": "Healthcare",
+      "stage": "Series A",
+      "date": "1 week ago",
+      "geography": "Cairo, Egypt",
+      "valuation": "$15M-$20M",
+      "logo": "https://via.placeholder.com/32x32/EF4444/FFFFFF?text=MC"
+    }
+  ],
+  "companyProfiles": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "companyName": "AlphaPay",
+      "companyType": "Payment Solutions",
+      "logo": "AP",
+      "overview": {
+        "views": "25.3K",
+        "revenue": "2.8M",
+        "reviews": "2.1K",
+        "rating": 4.7
+      },
+      "information": {
+        "registrationAddress": "123 Tech Street, Johannesburg, South Africa",
+        "businessName": "AlphaPay Solutions Ltd",
+        "registrationDate": "March 15, 2019",
+        "registrationCode": "AP001",
+        "legalForm": "Limited Liability",
+        "shareCapital": "$45K"
+      },
+      "valuation": {
+        "minValue": "$18M",
+        "medValue": "$20M",
+        "maxValue": "$22M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 15 },
+        { "month": "Feb", "value": 22 },
+        { "month": "Mar", "value": 18 },
+        { "month": "Apr", "value": 28 },
+        { "month": "May", "value": 25 },
+        { "month": "Jun", "value": 32 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "150k",
+        "minimumInvestment": "300k",
+        "status": "Opened",
+        "expiry": "5 days"
+      },
+      "team": [
+        {
+          "name": "David Mbeki",
+          "position": "Chief Executive Officer",
+          "initials": "DM",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Sarah Johnson",
+          "position": "Chief Technology Officer",
+          "initials": "SJ",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Michael Chen",
+          "position": "Chief Financial Officer",
+          "initials": "MC",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Lisa Patel",
+          "position": "Chief Marketing Officer",
+          "initials": "LP",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Robert Kim",
+          "position": "Chief Operations Officer",
+          "initials": "RK",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "AlphaPay Business License.pdf",
+          "size": "3.2MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "AlphaPay Financial Report 2023.pdf",
+          "size": "5.1MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "AlphaPay Tax Certificate.pdf",
+          "size": "1.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "AlphaPay Board Resolution.pdf",
+          "size": "890KB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "AlphaPay Insurance Certificate.pdf",
+          "size": "2.4MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "AlphaPay Compliance Report.pdf",
+          "size": "4.2MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "companyId": 2,
+      "companyName": "PaySphere",
+      "companyType": "Digital Banking",
+      "logo": "PS",
+      "overview": {
+        "views": "18.7K",
+        "revenue": "1.9M",
+        "reviews": "1.4K",
+        "rating": 4.3
+      },
+      "information": {
+        "registrationAddress": "456 Finance Avenue, Accra, Ghana",
+        "businessName": "PaySphere Digital Bank",
+        "registrationDate": "July 8, 2020",
+        "registrationCode": "PS002",
+        "legalForm": "Public Limited",
+        "shareCapital": "$32K"
+      },
+      "valuation": {
+        "minValue": "$18M",
+        "medValue": "$20M",
+        "maxValue": "$22M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 12 },
+        { "month": "Feb", "value": 16 },
+        { "month": "Mar", "value": 14 },
+        { "month": "Apr", "value": 22 },
+        { "month": "May", "value": 19 },
+        { "month": "Jun", "value": 26 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "120k",
+        "minimumInvestment": "250k",
+        "status": "Opened",
+        "expiry": "3 days"
+      },
+      "team": [
+        {
+          "name": "Kwame Asante",
+          "position": "Chief Executive Officer",
+          "initials": "KA",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Aisha Osei",
+          "position": "Chief Technology Officer",
+          "initials": "AO",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Kofi Mensah",
+          "position": "Chief Financial Officer",
+          "initials": "KM",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Efua Addo",
+          "position": "Chief Marketing Officer",
+          "initials": "EA",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Yaw Boateng",
+          "position": "Chief Operations Officer",
+          "initials": "YB",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "PaySphere Banking License.pdf",
+          "size": "4.1MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "PaySphere Annual Report 2023.pdf",
+          "size": "6.2MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "PaySphere Compliance Certificate.pdf",
+          "size": "2.3MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "PaySphere Audit Report.pdf",
+          "size": "3.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "PaySphere Risk Assessment.pdf",
+          "size": "2.9MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "PaySphere Security Protocol.pdf",
+          "size": "1.7MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "companyId": 3,
+      "companyName": "SwiftFunds",
+      "companyType": "Investment Platform",
+      "logo": "SF",
+      "overview": {
+        "views": "22.1K",
+        "revenue": "2.3M",
+        "reviews": "1.8K",
+        "rating": 4.6
+      },
+      "information": {
+        "registrationAddress": "789 Investment Road, Cape Town, South Africa",
+        "businessName": "SwiftFunds Investment Ltd",
+        "registrationDate": "November 20, 2021",
+        "registrationCode": "SF003",
+        "legalForm": "Private Limited",
+        "shareCapital": "$38K"
+      },
+      "valuation": {
+        "minValue": "$18M",
+        "medValue": "$20M",
+        "maxValue": "$22M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 18 },
+        { "month": "Feb", "value": 24 },
+        { "month": "Mar", "value": 20 },
+        { "month": "Apr", "value": 30 },
+        { "month": "May", "value": 27 },
+        { "month": "Jun", "value": 35 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "180k",
+        "minimumInvestment": "350k",
+        "status": "Opened",
+        "expiry": "7 days"
+      },
+      "team": [
+        {
+          "name": "Thabo Nkosi",
+          "position": "Chief Executive Officer",
+          "initials": "TN",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Zanele Dlamini",
+          "position": "Chief Technology Officer",
+          "initials": "ZD",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Sipho Maseko",
+          "position": "Chief Financial Officer",
+          "initials": "SM",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Nokuthula Zulu",
+          "position": "Chief Marketing Officer",
+          "initials": "NZ",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Mandla Ndlovu",
+          "position": "Chief Operations Officer",
+          "initials": "MN",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "SwiftFunds Investment License.pdf",
+          "size": "3.5MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "SwiftFunds Portfolio Report.pdf",
+          "size": "4.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "SwiftFunds Performance Metrics.pdf",
+          "size": "2.1MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "SwiftFunds Client Agreement.pdf",
+          "size": "1.9MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "SwiftFunds Compliance Report.pdf",
+          "size": "3.2MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "SwiftFunds Risk Management.pdf",
+          "size": "2.7MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "companyId": 4,
+      "companyName": "TechFlow",
+      "companyType": "Software Development",
+      "logo": "TF",
+      "overview": {
+        "views": "19.5K",
+        "revenue": "2.1M",
+        "reviews": "1.6K",
+        "rating": 4.4
+      },
+      "information": {
+        "registrationAddress": "321 Innovation Drive, Accra, Ghana",
+        "businessName": "TechFlow Solutions Ltd",
+        "registrationDate": "April 12, 2020",
+        "registrationCode": "TF004",
+        "legalForm": "Limited Liability",
+        "shareCapital": "$28K"
+      },
+      "valuation": {
+        "minValue": "$18M",
+        "medValue": "$20M",
+        "maxValue": "$22M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 14 },
+        { "month": "Feb", "value": 19 },
+        { "month": "Mar", "value": 16 },
+        { "month": "Apr", "value": 25 },
+        { "month": "May", "value": 22 },
+        { "month": "Jun", "value": 29 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "140k",
+        "minimumInvestment": "280k",
+        "status": "Opened",
+        "expiry": "4 days"
+      },
+      "team": [
+        {
+          "name": "Emmanuel Kufuor",
+          "position": "Chief Executive Officer",
+          "initials": "EK",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Grace Ampah",
+          "position": "Chief Technology Officer",
+          "initials": "GA",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Daniel Owusu",
+          "position": "Chief Financial Officer",
+          "initials": "DO",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Abena Sarpong",
+          "position": "Chief Marketing Officer",
+          "initials": "AS",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Kwesi Ankomah",
+          "position": "Chief Operations Officer",
+          "initials": "KA",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "TechFlow Software License.pdf",
+          "size": "2.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "TechFlow Development Report.pdf",
+          "size": "3.9MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "TechFlow Code Review.pdf",
+          "size": "1.5MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "TechFlow Security Audit.pdf",
+          "size": "2.6MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "TechFlow User Manual.pdf",
+          "size": "4.3MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "TechFlow API Documentation.pdf",
+          "size": "2.2MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "companyId": 5,
+      "companyName": "DataVault",
+      "companyType": "Data Analytics",
+      "logo": "DV",
+      "overview": {
+        "views": "16.8K",
+        "revenue": "1.7M",
+        "reviews": "1.3K",
+        "rating": 4.2
+      },
+      "information": {
+        "registrationAddress": "654 Data Street, Johannesburg, South Africa",
+        "businessName": "DataVault Analytics Ltd",
+        "registrationDate": "September 5, 2021",
+        "registrationCode": "DV005",
+        "legalForm": "Private Limited",
+        "shareCapital": "$25K"
+      },
+      "valuation": {
+        "minValue": "$18M",
+        "medValue": "$20M",
+        "maxValue": "$22M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 11 },
+        { "month": "Feb", "value": 15 },
+        { "month": "Mar", "value": 13 },
+        { "month": "Apr", "value": 20 },
+        { "month": "May", "value": 18 },
+        { "month": "Jun", "value": 24 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "110k",
+        "minimumInvestment": "220k",
+        "status": "Opened",
+        "expiry": "2 days"
+      },
+      "team": [
+        {
+          "name": "Lungile Zulu",
+          "position": "Chief Executive Officer",
+          "initials": "LZ",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Themba Nkosi",
+          "position": "Chief Technology Officer",
+          "initials": "TN",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Nokwanda Dlamini",
+          "position": "Chief Financial Officer",
+          "initials": "ND",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Sibusiso Maseko",
+          "position": "Chief Marketing Officer",
+          "initials": "SM",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Thandeka Ndlovu",
+          "position": "Chief Operations Officer",
+          "initials": "TN",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "DataVault Analytics License.pdf",
+          "size": "3.1MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "DataVault Research Report.pdf",
+          "size": "4.5MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "DataVault Privacy Policy.pdf",
+          "size": "1.9MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "DataVault Security Protocol.pdf",
+          "size": "2.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "DataVault Compliance Report.pdf",
+          "size": "3.4MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "DataVault User Agreement.pdf",
+          "size": "2.1MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "companyId": 6,
+      "companyName": "CloudSync",
+      "companyType": "Cloud Services",
+      "logo": "CS",
+      "overview": {
+        "views": "28.4K",
+        "revenue": "3.2M",
+        "reviews": "2.5K",
+        "rating": 4.8
+      },
+      "information": {
+        "registrationAddress": "987 Cloud Avenue, Lagos, Nigeria",
+        "businessName": "CloudSync Technologies Ltd",
+        "registrationDate": "January 18, 2020",
+        "registrationCode": "CS006",
+        "legalForm": "Public Limited",
+        "shareCapital": "$55K"
+      },
+      "valuation": {
+        "minValue": "$25M",
+        "medValue": "$27.5M",
+        "maxValue": "$30M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 22 },
+        { "month": "Feb", "value": 28 },
+        { "month": "Mar", "value": 25 },
+        { "month": "Apr", "value": 35 },
+        { "month": "May", "value": 32 },
+        { "month": "Jun", "value": 40 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "200k",
+        "minimumInvestment": "400k",
+        "status": "Opened",
+        "expiry": "6 days"
+      },
+      "team": [
+        {
+          "name": "Adebayo Oke",
+          "position": "Chief Executive Officer",
+          "initials": "AO",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Fatima Hassan",
+          "position": "Chief Technology Officer",
+          "initials": "FH",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Chukwudi Okonkwo",
+          "position": "Chief Financial Officer",
+          "initials": "CO",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Aisha Bello",
+          "position": "Chief Marketing Officer",
+          "initials": "AB",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Emeka Nwachukwu",
+          "position": "Chief Operations Officer",
+          "initials": "EN",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "CloudSync Service License.pdf",
+          "size": "4.2MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "CloudSync Infrastructure Report.pdf",
+          "size": "5.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "CloudSync Security Audit.pdf",
+          "size": "3.1MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "CloudSync SLA Agreement.pdf",
+          "size": "2.4MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "CloudSync Compliance Certificate.pdf",
+          "size": "3.7MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "CloudSync Disaster Recovery.pdf",
+          "size": "2.9MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "companyId": 7,
+      "companyName": "GreenTech",
+      "companyType": "Renewable Energy",
+      "logo": "GT",
+      "overview": {
+        "views": "31.2K",
+        "revenue": "4.1M",
+        "reviews": "2.8K",
+        "rating": 4.9
+      },
+      "information": {
+        "registrationAddress": "456 Green Street, Nairobi, Kenya",
+        "businessName": "GreenTech Energy Solutions",
+        "registrationDate": "June 22, 2019",
+        "registrationCode": "GT007",
+        "legalForm": "Limited Liability",
+        "shareCapital": "$75K"
+      },
+      "valuation": {
+        "minValue": "$35M",
+        "medValue": "$37.5M",
+        "maxValue": "$40M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 28 },
+        { "month": "Feb", "value": 35 },
+        { "month": "Mar", "value": 32 },
+        { "month": "Apr", "value": 42 },
+        { "month": "May", "value": 38 },
+        { "month": "Jun", "value": 45 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "250k",
+        "minimumInvestment": "500k",
+        "status": "Opened",
+        "expiry": "8 days"
+      },
+      "team": [
+        {
+          "name": "Wanjiku Muthoni",
+          "position": "Chief Executive Officer",
+          "initials": "WM",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Kamau Njoroge",
+          "position": "Chief Technology Officer",
+          "initials": "KN",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Amina Hassan",
+          "position": "Chief Financial Officer",
+          "initials": "AH",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Juma Otieno",
+          "position": "Chief Marketing Officer",
+          "initials": "JO",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Grace Wanjiru",
+          "position": "Chief Operations Officer",
+          "initials": "GW",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "GreenTech Energy License.pdf",
+          "size": "4.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "GreenTech Environmental Report.pdf",
+          "size": "6.5MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "GreenTech Sustainability Plan.pdf",
+          "size": "3.2MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "GreenTech Carbon Footprint.pdf",
+          "size": "2.7MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "GreenTech Energy Efficiency.pdf",
+          "size": "4.1MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "GreenTech Renewable Certificates.pdf",
+          "size": "3.8MB",
+          "type": "PDF"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "companyId": 8,
+      "companyName": "MediCare",
+      "companyType": "Healthcare Technology",
+      "logo": "MC",
+      "overview": {
+        "views": "14.6K",
+        "revenue": "1.4M",
+        "reviews": "1.1K",
+        "rating": 4.1
+      },
+      "information": {
+        "registrationAddress": "789 Health Boulevard, Cairo, Egypt",
+        "businessName": "MediCare Health Solutions",
+        "registrationDate": "December 10, 2021",
+        "registrationCode": "MC008",
+        "legalForm": "Private Limited",
+        "shareCapital": "$20K"
+      },
+      "valuation": {
+        "minValue": "$15M",
+        "medValue": "$17.5M",
+        "maxValue": "$20M"
+      },
+      "growthPerformance": [
+        { "month": "Jan", "value": 10 },
+        { "month": "Feb", "value": 13 },
+        { "month": "Mar", "value": 11 },
+        { "month": "Apr", "value": 17 },
+        { "month": "May", "value": 15 },
+        { "month": "Jun", "value": 20 }
+      ],
+      "currentOpenings": {
+        "pricePerShare": "90k",
+        "minimumInvestment": "180k",
+        "status": "Opened",
+        "expiry": "1 day"
+      },
+      "team": [
+        {
+          "name": "Ahmed Hassan",
+          "position": "Chief Executive Officer",
+          "initials": "AH",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Fatima Ali",
+          "position": "Chief Technology Officer",
+          "initials": "FA",
+          "image": "/images/Rectangle 8.png"
+        },
+        {
+          "name": "Omar Khalil",
+          "position": "Chief Financial Officer",
+          "initials": "OK",
+          "image": "/images/Rectangle 9.png"
+        },
+        {
+          "name": "Layla Mahmoud",
+          "position": "Chief Marketing Officer",
+          "initials": "LM",
+          "image": "/images/Rectangle 10.png"
+        },
+        {
+          "name": "Youssef Ibrahim",
+          "position": "Chief Operations Officer",
+          "initials": "YI",
+          "image": "/images/Rectangle 11.png"
+        }
+      ],
+      "documents": [
+        {
+          "id": 1,
+          "name": "MediCare Health License.pdf",
+          "size": "3.6MB",
+          "type": "PDF"
+        },
+        {
+          "id": 2,
+          "name": "MediCare Clinical Trials.pdf",
+          "size": "4.9MB",
+          "type": "PDF"
+        },
+        {
+          "id": 3,
+          "name": "MediCare FDA Approval.pdf",
+          "size": "2.2MB",
+          "type": "PDF"
+        },
+        {
+          "id": 4,
+          "name": "MediCare Patient Data Policy.pdf",
+          "size": "1.8MB",
+          "type": "PDF"
+        },
+        {
+          "id": 5,
+          "name": "MediCare Quality Assurance.pdf",
+          "size": "3.3MB",
+          "type": "PDF"
+        },
+        {
+          "id": 6,
+          "name": "MediCare Medical Protocols.pdf",
+          "size": "2.5MB",
+          "type": "PDF"
+        }
+      ]
+    }
+  ],
+  "dashboardStats": [
+    {
+      "id": 1,
+      "title": "Total Portfolio Holdings",
+      "value": "7,265",
+      "change": "+11.02%",
+      "gradientFrom": "from-[#CFFFE5]", 
+      "gradientTo": "to-[#CFFFE5]",
+      "textColor": "text-[#008000]",
+      "bgColor": "bg-[#CFFFE5]"
+    },
+    {
+      "id": 2,
+      "title": "Active Investors",
+      "value": "3,265",
+      "change": "+11.02%",
+      "gradientFrom": "from-[#E4EEFF]",
+      "gradientTo": "to-[#E4EEFF]",
+      "textColor": "text-[#0000FF]",
+      "bgColor": "bg-[#E4EEFF]"
+    },
+    {
+      "id": 3,
+      "title": "New Investments",
+      "value": "1,400",
+      "change": "+11.02%",
+      "gradientFrom": "from-[#CFFFE5]",
+      "gradientTo": "to-[#CFFFE5]",
+      "textColor": "text-[#008000]",
+      "bgColor": "bg-[#CFFFE5]"
+    },
+    {
+      "id": 4,
+      "title": "Soft Commits",
+      "value": "1,065",
+      "change": "+11.02%",
+      "gradientFrom": "from-[#E4EEFF]",
+      "gradientTo": "to-[#E4EEFF]",
+      "textColor": "text-[#0000FF]",
+      "bgColor": "bg-[#E4EEFF]"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "avatar": "https://via.placeholder.com/32x32/6B7280/FFFFFF?text=JD",
+      "role": "investor"
+    }
+  ],
+  "aiWatchlist": [
+    {
+      "id": 1,
+      "code": "R&V",
+      "label": "Risk Valuation Low",
+      "color": "green"
+    },
+    {
+      "id": 2,
+      "code": "S&P",
+      "label": "Investment Opinion Assessment",
+      "color": "gray"
+    }
+  ]
+}

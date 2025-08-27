@@ -1,0 +1,6 @@
+{
+  "port": 3002,
+  "host": "localhost",
+  "watch": true,
+  "middlewares": "./middleware.js"
+}

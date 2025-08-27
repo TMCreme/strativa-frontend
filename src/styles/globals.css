@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FFFFFF;
+  --foreground: #171717;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: var(--foreground);
+  font-family: var(--font-wix-madefor-text), Arial, Helvetica, sans-serif;
+}
+
+/* Font utility classes */
+.font-display {
+  font-family: var(--font-wix-madefor-display), Arial, Helvetica, sans-serif;
+}
+
+.font-text {
+  font-family: var(--font-wix-madefor-text), Arial, Helvetica, sans-serif;
+}
+
