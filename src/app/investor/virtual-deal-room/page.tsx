@@ -1,40 +1,51 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { UploadedFileCard, UploadedFile } from "@/shared/components";
-import { useChat } from "@/shared/hooks/useChat";
+// import { useChat } from "@/shared/hooks/useChat";
+import { DocumentUpload } from "@/shared/types/document.types";
 
 export default function VirtualDealRoomPage() {
   const [activeTab, setActiveTab] = useState("document-repository");
   const [selectedConversation, setSelectedConversation] = useState("tj-1");
   const [messageInput, setMessageInput] = useState("");
-  const [uploadedFiles, setUploadedFiles] = useState<UploadedFile[]>([
+  const [uploadedFiles, setUploadedFiles] = useState<DocumentUpload[]>([
     {
       id: "1",
       name: "Johnn Doe regulatory License.pdf",
-      size: "4MB",
+      size: 4 * 1024 * 1024, // 4MB in bytes
       type: "PDF",
       progress: 50,
-      //   isUploading: true
+      status: "completed",
+      file: new File([], "Johnn Doe regulatory License.pdf"),
     },
     {
       id: "2",
       name: "Johnn Doe regulatory License.pdf",
-      size: "4MB",
+      size: 4 * 1024 * 1024,
       type: "PDF",
+      progress: 100,
+      status: "completed",
+      file: new File([], "Johnn Doe regulatory License.pdf"),
     },
     {
       id: "3",
       name: "Johnn Doe regulatory License.pdf",
-      size: "4MB",
+      size: 4 * 1024 * 1024,
       type: "PDF",
+      progress: 100,
+      status: "completed",
+      file: new File([], "Johnn Doe regulatory License.pdf"),
     },
     {
       id: "4",
       name: "Johnn Doe regulatory License.pdf",
-      size: "4MB",
+      size: 4 * 1024 * 1024,
       type: "PDF",
+      progress: 100,
+      status: "completed",
+      file: new File([], "Johnn Doe regulatory License.pdf"),
     },
   ]);
 
@@ -46,14 +57,27 @@ export default function VirtualDealRoomPage() {
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
   };
 
+  // Adapter function to convert DocumentUpload to UploadedFile
+  const adaptDocumentUploadToUploadedFile = (
+    doc: DocumentUpload
+  ): UploadedFile => ({
+    id: doc.id,
+    name: doc.name,
+    size: formatFileSize(doc.size),
+    type: doc.type,
+    progress: doc.progress,
+    isUploading: doc.status === "uploading",
+  });
+
   const handleFileUpload = (file: File) => {
-    const newFile = {
+    const newFile: DocumentUpload = {
       id: Date.now().toString(),
       name: file.name,
-      size: formatFileSize(file.size),
-      type: file.type.includes("pdf") ? "PDF" : "JPEG",
+      size: file.size,
+      type: file.type.includes("pdf") ? "PDF" : "JPG",
       progress: 0,
-      isUploading: true,
+      status: "uploading",
+      file: file,
     };
 
     setUploadedFiles((prev) => [...prev, newFile]);
@@ -66,7 +90,7 @@ export default function VirtualDealRoomPage() {
             const newProgress = (f.progress || 0) + 10;
             if (newProgress >= 100) {
               clearInterval(interval);
-              return { ...f, progress: 100, isUploading: false };
+              return { ...f, progress: 100, status: "completed" as const };
             }
             return { ...f, progress: newProgress };
           }
@@ -273,7 +297,7 @@ export default function VirtualDealRoomPage() {
                   {uploadedFiles.map((file) => (
                     <UploadedFileCard
                       key={file.id}
-                      file={file}
+                      file={adaptDocumentUploadToUploadedFile(file)}
                       onDelete={handleDeleteFile}
                       onView={handleViewFile}
                     />
