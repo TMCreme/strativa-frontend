@@ -29,7 +29,7 @@ export default function Footer() {
             Menu
           </h1>
           <ul className="text-base leading-[22px] font-text text-[#2F2B36] space-y-2">
-            <li>Abuot</li>
+            <li>About</li>
             <li>Products</li>
             <li>Resources</li>
           </ul>
